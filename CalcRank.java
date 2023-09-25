@@ -9,7 +9,7 @@ class CalcRank {
         int vit = scanner.nextInt();
         System.out.print("numero de derrotas: ");
         int der = scanner.nextInt();
-
+        scanner.close();
         calcularClasse(vit, der);
 
         System.out.println("A classe atual do personagem é " + rankClass + ", com " + vit + " vitorias e " + der + " derrotas.");
